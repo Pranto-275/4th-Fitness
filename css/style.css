@@ -1,0 +1,173 @@
+    body{
+       color: white;
+    }
+
+    /* nav{
+        font-family: Kaushan Script;
+        font-weight: 700;
+    } */
+
+
+    #home{
+        background: url('../images/header-bg.jpg') no-repeat center top ;
+        background-size: cover;
+         min-height: 700px;
+    }
+    .home-inner{
+        padding-top: 300px;
+        padding-bottom: 50px;
+
+       }
+       .image{
+           background: rgba(0,0,0,0.2);
+           min-height: 700px;
+       }
+
+    
+   .pc1:hover{
+    color:white;
+    background-color: black;
+    border: none;
+}
+@media(max-width:767px){
+    #home h1{
+        font-size: 30px;
+    }
+    #classes h1{
+        font-size: 30px;
+    }
+    #features h1{
+        font-size: 30px;
+    }
+   #pricing h1{
+       font-size: 30px;
+   }
+
+    #reviews .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 20px;
+    }
+}
+#classes{
+    background-color: #353b48;
+}
+#features{
+    background-color:white;
+    color: black;
+}
+
+#wall{
+    background: url('../images/lastbgwallaper.jpg') no-repeat center top;
+    min-height: 500px;
+    background-size: cover;
+}
+.dark-img{
+    background: rgba(0,0,0,0.5);
+    min-height: 500px;
+}
+
+.homein{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+.carousel-caption .pc2{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#pricing{
+    background-color: #535c68;
+}
+
+#pricing .card{
+    background-color:black;
+}
+
+.pc2:hover{
+    color:blue;
+    background-color: black;
+    border: none;
+}
+
+#wall2{
+    background: url('../images/image-bg.jpg') no-repeat center top;
+    background-size: cover;
+    min-height: 500px;
+}
+.dark-img2{
+   background: rgba(0,0,0,0.5);
+   min-height: 500px;
+}
+.homein2{
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+#contact{
+    background-color: #535c68;
+}
+.bg-dark {
+    background: transparent !important;
+    transition: .5s ease-out;
+}
+
+.bg-dark.scrolled {
+    background: skyblue !important;
+}
+
+
+ul li a {
+    color: white ;
+    }
+
+    .anim{
+        height: 10px;
+        width: 30px;
+        background-color: red;
+        animation-name:pranto;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 1s;
+        -moz-animation-direction: alternate;
+        animation-iteration-count: infinite;
+        position: relative;
+        border-radius: 20px;
+        
+    }
+    @keyframes pranto{
+        from{
+            left:400px;
+            top:30px;
+        }
+        to{
+            left:670px;
+            top: 30px;
+        }
+    }
+    .anim2{
+        height: 10px;
+        width: 30px;
+        background-color: blue;
+        animation-name:rahman;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 1s;
+        -moz-animation-direction: alternate-reverse;
+        animation-iteration-count: infinite;
+        position: relative;
+        border-radius: 20px;
+    }
+    @keyframes rahman{
+        from{
+            left:400px;
+            top:30px;
+        }
+        to{
+            left:670px;
+            top: 30px;
+        }
+    }
+    
